@@ -3,53 +3,44 @@ A Friendly Raspberry Pi Helper
 
 This is the development map for the AQLabs Raspi-Tool Scrpit:
 
-
-                                       Phase One - [Menu Elements]     **All menus go in the main file**
-                                       -----------------------------------------------------------------
+Phase One - [Menu Elements]     **All menus go in the main file**
 
 
 Main Menu  [main.py] - main()
-----------------------------------
-1. Tools                      	 -> [main.py] - tools()       
-2. Installs                   	 -> [main.py] - installs()
-3. Extras    		      	 -> [main.py] - extras()
-4. -exit-    		      	 -> exit()
+Tools                      	 -> [main.py] - tools()       
+Installs                   	 -> [main.py] - installs()
+Extras    		      	 -> [main.py] - extras()
+-exit-    		      	 -> exit()
 
 
 Tools Menu  [main.py] - tools()
--------------------------------------------------
-1. Service Manager            	 -> [tools.py] - tools_service()
-2. System Viewer              	 -> [tools.py] - tools_system()
-3. Docker Manager             	 -> [tools.py] - tools_docker()
+Service Manager            	 -> [tools.py] - tools_service()
+System Viewer              	 -> [tools.py] - tools_system()
+Docker Manager             	 -> [tools.py] - tools_docker()
 
 
-== Extras Menu == [main.py] - extras()
---------------------------------------
-1. Minecraft Server Installer        -> [main.py] - extras_mci()
-2. Crypto Miner Installer            -> [main.py] - extras_cmi()
+Extras Menu  [main.py] - extras()
+Minecraft Server Installer        -> [main.py] - extras_mci()
+Crypto Miner Installer            -> [main.py] - extras_cmi()
 
 
 
 
-						Phase Two - [Tools Menu Functions] **Functions go with their respected block**
-						-------------------------------------------------------------------------------
-
+Phase Two - [Tools Menu Functions] **Functions go with their respected block**
+						
 
 Service Manager                    -> [tools.py] - tools_service
----------------------------------------------------------------------
 See Running Services          -> [tools.py] - service_stat
 Stop, Start, Restart Services -> [tools.py] - service_tink
  
 
 System Viewer                      -> [tools.py] - tools_system()
---------------------------------------------------------------------
 RAM Checker                   -> [tools.py] - tools_ramcheck()
 Storage Space Check           -> [tools.py] - tools_storcheck()
 CPU Temp Check                -> [tools.py] - tools_cputemp()
 CPU Load                      -> [tools.py] - tools_cpuload()
 
 Docker Manager                     -> [tools.py] - tools_docker() 
----------------------------------------------------------------------
 Container Manager		  -> [tools.py] - tools_container()
 Image Puller			  -> [tools.py] - tools_image()
 Volume Manager                -> [tools.py] - tools_volume()
@@ -57,8 +48,7 @@ Network Checker               -> [tools.py] - tools_network()
 
 
 
-						Phase Three - [Installs Menu Functions] **Functions go with thier respected blocks**
-						------------------------------------------------------------------------------------
+Phase Three - [Installs Menu Functions] **Functions go with thier respected blocks**
 
 Apache2					  -> [installs.py] - installs_apache2()
 NginX					  -> [installs.py] - installs_nginx()
@@ -71,18 +61,17 @@ Java					  -> [installs.py] - installs_java()
 Git					  -> [installs.py] - installs_git()
 
 
-						Phase Four - [Extras Menu Functions] **Functions go with thier respected blocks**
-						---------------------------------------------------------------------------------
-
+Phase Four - [Extras Menu Functions] **Functions go with thier respected blocks**
+						
 Minecraft Server Installer         -> [extras.py] - extras_mci()
 Crypto Mining Software             -> [extras.py] - extras_cmi()
 
 
 
 v.1.0 will contain a total of 
--------------------------------
- 4 Core files
- 42 differnet functions
+
+4 Core files
+42 differnet functions
 
 
 
