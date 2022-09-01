@@ -23,7 +23,7 @@ Extras Menu  [main.py] - extras()
 Minecraft Server Installer        -> [main.py] - extras_mci()
 Crypto Miner Installer            -> [main.py] - extras_cmi()
 
-
+--------------------------------------------------------------------------------
 
 
 Phase Two - [Tools Menu Functions] **Functions go with their respected block**
@@ -46,7 +46,7 @@ Image Puller			  -> [tools.py] - tools_image()
 Volume Manager                -> [tools.py] - tools_volume()
 Network Checker               -> [tools.py] - tools_network()
 
-
+-------------------------------------------------------------------------------------------
 
 Phase Three - [Installs Menu Functions] **Functions go with thier respected blocks**
 
@@ -60,6 +60,7 @@ OMV					  -> [installs.py] - installs_omv()
 Java					  -> [installs.py] - installs_java()
 Git					  -> [installs.py] - installs_git()
 
+-------------------------------------------------------------------------------------------
 
 Phase Four - [Extras Menu Functions] **Functions go with thier respected blocks**
 						
